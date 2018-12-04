@@ -1,0 +1,125 @@
+
+	<div class="container">
+
+		<div id="box1" class="box">
+			<h1 id="b1">1</h1>
+			<label>20bucks</label>
+		</div>
+
+		<div id="box2" class="box">
+			<h1>2</h1>
+			<label>30bucks</label>
+		</div>
+
+		<div id="box3" class="box">
+			<h1>3</h1>
+			<label>40bucks</label>
+		</div>
+
+		<div id="box4" class="box">
+			<h1>4</h1>
+			<label>50bucks</label>
+		</div>
+
+		<div id="box5" class="box">
+			<h1>5</h1>
+			<label>60bucks</label>
+		</div>
+
+		<div id="box6" class="box">
+			<h1 id="b1">6</h1>
+			<label>70bucks</label>
+		</div>
+
+		<div id="box7" class="box">
+			<h1>7</h1>
+			<label>80bucks</label>
+		</div>
+
+		<div id="box8" class="box">
+			<h1>8</h1>
+			<label>90bucks</label>
+		</div>
+
+		<div id="box9" class="box">
+			<h1>9</h1>
+			<label>100bucks</label>
+		</div>
+
+		<div id="box10" class="box">
+			<h1>10</h1>
+			<label>110bucks</label>
+		</div>
+
+
+	</div>
+
+
+$(".123box").click(() => {
+	let x = $(this).contents().filter("label").text;
+	console.log(x);
+})
+
+function try1() {
+	let a = $("box");
+}
+
+$("#box1").click(() => {
+	let box1 = $("#box1").find("label");
+	// alert(box1.text())
+	box1.css("display", "block")
+});
+
+$("#box2").click(() => {
+	let box2 = $("#box2").find("label");
+	alert(box2.text())
+});
+
+$("#box3").click(() => {
+	let box3 = $("#box3").find("label");
+	alert(box3.text())
+});
+
+$("#box4").click(() => {
+	let box4 = $("#box4").find("label");
+	alert(box4.text())
+});
+
+$("#box5").click(() => {
+	let box5 = $("#box5").find("label");
+	alert(box5.text())
+});
+
+$("#box6").click(() => {
+	let box6 = $("#box6").find("label");
+	alert(box6.text())
+});
+
+$("#box7").click(() => {
+	let box7 = $("#box7").find("label");
+	alert(box7.text())
+});
+
+$("#box8").click(() => {
+	let box8 = $("#box8").find("label");
+	alert(box8.text())
+});
+
+$("#box9").click(() => {
+	let box9 = $("#box9").find("label");
+	alert(box9.text())
+});
+
+$("#box10").click(() => {
+	let box10 = $("#box10").find("label");
+	alert(box10.text())
+});
+
+.box label {
+	display: none;
+}
+
+.box {
+	display: inline-block;
+	padding-right: 20px;
+}

@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div[class*="col"] {
+	min-height: 50px;
+	background-color: lightgrey;
+	border: 1px dotted grey;
+	color: transparent;
+	border-radius: 5px;
+}
+
+div[class*="row"] {
+	min-height: 8.33%;
+}
+
+.active {
+	background-color: black;
+	/*display: none;*/
+}
